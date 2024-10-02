@@ -1,7 +1,36 @@
-.App {
-	text-align: center;
+.square {
+  width: 30vh;
+  height: 30vh;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
 
-	button {
-		font-weight: bold;
-	}
+.square1, .square2, .square3, .square4, .square5 {
+  width: 7vh;
+  height: 7vh;
+}
+
+.square1 {
+  background-color: red;
+}
+
+.square2 {
+  background-color: green;
+}
+
+.square3 {
+  background-color: pink;
+  order: 2;
+	flex-shrink: 10;
+}
+
+.square4 {
+  background-color: orange;
+}
+
+.square5 {
+  background-color: blueviolet;
 }
